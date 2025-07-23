@@ -1,47 +1,103 @@
-# MERN-E-Commerce-Frontend
+# MERN E-Commerce Frontend
 
-MERN-E-Commerce-Frontend is the frontend of an e-commerce web application built with ReactJS ,Material UI, ContextAPI, React-router-dom
-
-## Live Link
-
-You can access the live application at [https://e-shopit.vercel.app/](https://e-shopit.vercel.app/).
+This is the frontend for a MERN stack e-commerce application, built with React and Material-UI. It provides user and admin interfaces for shopping, account management, and analytics.
 
 ## Features
 
-- User authentication and authorization(JWT)
-- Admin dashboard for managing products, orders, users and to show statistics
-- Payemnt Gateway
-- Mail Service
-- Forgot Password & Reset Password
-- Product listing and search
-- Product details and reviews
-- Cart management
-- Order history
+- User authentication (register, login, password reset)
+- Product browsing and detail pages
+- Cart and wishlist management
+- Checkout and payment integration (Razorpay)
+- Review and rating system
+- Admin dashboard for managing users, products, orders, and analytics
+- Responsive design for desktop and mobile
 
 ## Tech Stack
-- MongoDB
-- ReactJS
-- NodeJS
-- ExpressJS
-## Images
 
-![Dashboard](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/Stat1_asehhd.png)
-![Dashboard](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/Stat2_tw25cm.png)
-![Dashboard](https://res.cloudinary.com/dxguqzge7/image/upload/v1682956688/Stat3_rslfzi.png)
-![Orders](https://res.cloudinary.com/dxguqzge7/image/upload/v1682956689/Orders_cyfzkp.png)
-![Users](https://res.cloudinary.com/dxguqzge7/image/upload/v1682956689/Users_nxx1cs.png)
-![HomePage](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/Home_bcr44v.png)
-![Products](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853695/Products_vxf8pr.png)
-![Product](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/Product_tnba6w.png)
-![Payment](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853693/Payment_xrucd9.png)
-![Cart](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853693/Cart_zpzmwr.png)
-![UserProfile](https://res.cloudinary.com/dxguqzge7/image/upload/v1682853694/User_lyfday.png)
+- **React** (`react`, `react-dom`)
+- **Material-UI** (`@mui/material`, `@emotion/react`, `@emotion/styled`)
+- **Routing**: `react-router-dom`
+- **State Management**: React Context API
+- **HTTP Requests**: `axios`
+- **Charts**: `recharts`
+- **Notifications**: `react-toastify`
+- **Icons**: `react-icons`
+- **Testing**: `@testing-library/react`, `jest-dom`, `user-event`
+- **Styling**: CSS Modules, styled-components
 
-## Backend
+## Project Structure
 
-The backend of the application is built with NodeJS and ExpressJS and uses a MongoDB database to store the product and user data. The source code for the backend can be found at [https://github.com/Saurabh-8585/MERN-E-Commerce-Backend](https://github.com/Saurabh-8585/MERN-E-Commerce-Backend).
+```
+src/
+  ├── App.js
+  ├── index.js
+  ├── Assets/Images/
+  ├── Auth/
+  ├── Admin/
+  ├── Components/
+  ├── Context/
+  ├── Constants/
+  ├── Helpers/
+  ├── Navigation/
+  ├── Pages/
+  ├── service-worker.js
+  └── serviceWorkerRegistration.js
+public/
+  ├── index.html
+  ├── manifest.json
+  └── favicon.ico
+```
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14+ recommended)
+- npm
+
+### Installation
+
+```sh
+npm install
+```
+
+### Running the App
+
+```sh
+npm start
+```
+
+The app will run at [http://localhost:3000](http://localhost:3000).
+
+### Building for Production
+
+```sh
+npm run build
+```
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add your API endpoints and keys, for example:
+
+```
+REACT_APP_GET_USER_DETAILS=your_api_endpoint
+REACT_APP_REGISTER=your_api_endpoint
+REACT_APP_GET_CART=your_api_endpoint
+REACT_APP_GET_WISHLIST=your_api_endpoint
+REACT_APP_GET_CHECKOUT=your_api_endpoint
+REACT_APP_GET_PAYMENTVERIFICATION=your_api_endpoint
+REACT_APP_ADMIN_GET_ALL_USERS=your_api_endpoint
+REACT_APP_ADMIN_GET_CHART_DATA=your_api_endpoint
+```
+
+## Testing
+
+```sh
+npm test
+```
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is for educational purposes.
+
+---
