@@ -107,16 +107,16 @@ This project is for educational purposes.
 ![Home Page](./public/1.png)
 
 ### Product Listing
-![Product Listing]("./public/2.png")
+![Product Listing](./public/2.png)
 
 ### Product Details
-![Product Details]("./public/7.png")
+![Product Details](./public/7.png)
 
 ### Cart
-![Cart]("./public/1.png")
+![Cart](./public/1.png)
 
 ### User Information
-![Information]("./public/4.png")
+![Information](./public/4.png)
 
 ### Reset Password
-![Reset]("./public/6.png")
+![Reset](./public/6.png)
