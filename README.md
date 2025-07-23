@@ -116,7 +116,7 @@ This project is for educational purposes.
 ![Cart]("./public/1.png")
 
 ### User Information
-![Checkout]("./public/4.png")
+![Information]("./public/4.png")
 
 ### Reset Password
-![Admin Dashboard]("./public/6.png")
+![Reset]("./public/6.png")
