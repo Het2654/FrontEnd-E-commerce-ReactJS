@@ -101,3 +101,22 @@ npm test
 This project is for educational purposes.
 
 ---
+## Screenshots
+
+### Home Page
+![Home Page]("./public/1.png")
+
+### Product Listing
+![Product Listing]("./public/2.png")
+
+### Product Details
+![Product Details]("./public/7.png")
+
+### Cart
+![Cart]("./public/1.png")
+
+### User Information
+![Checkout]("./public/4.png")
+
+### Reset Password
+![Admin Dashboard]("./public/6.png")
