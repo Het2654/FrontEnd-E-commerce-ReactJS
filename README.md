@@ -104,7 +104,7 @@ This project is for educational purposes.
 ## Screenshots
 
 ### Home Page
-![Home Page]("./public/1.png")
+![Home Page](./public/1.png)
 
 ### Product Listing
 ![Product Listing]("./public/2.png")
